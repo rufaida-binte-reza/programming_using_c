@@ -1,0 +1,25 @@
+1.   Write a program that prints the numbers from 1 to 100. But skip those numbers which are multiples by both 3 and 5.
+
+2.   Write a program that prints the numbers from 1 to 100. But break the loop when an even number greater than 80 is divisible by both 3 and 5.
+
+3.   Write a program to print all the prime numbers from 1 to 100.
+
+4.   Write a program to print all the palindrome numbers from 100 to 300.
+
+5.   Write a program to print all the armstrong numbers from 1 to 100.
+
+     Note: An Armstrong number is one whose sum of digits raised to the power three equals the number itself. 371, for example, is an Armstrong number because 33 + 73 + 13 = 371.
+
+6.   Write a program to generate the Collatz sequence for a given number.
+
+Collatz
+sequence rule:
+
+●    The sequence begins with any positive integer, say n
+●     If the integer n is odd, the next number in sequence would be 3n+1
+●    If the integer n is even, the next number in sequence would be n/2
+●    The sequence will continue until digit 1 is encountered
+
+Sample
+input: 11
+Sample output:  11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
